@@ -1,0 +1,42 @@
+.forecast {
+    display: block;
+    background: rgb(62, 105, 143);
+    color: black;
+    padding: 15px;
+    overflow-x: scroll;
+    border-radius: 7px;
+    margin-top: 10px;
+
+    &-title {
+        text-align: left;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    &-items {
+        display: flex;
+    }
+
+    &-item {
+        padding: 10px;
+        border-right: 1px solid #ccc;
+        margin-bottom: 10px;
+
+        &:last-of-type {
+            border-right: 0;
+        }
+    }
+
+    &-item_hour {
+        color: #b4b4b4;
+    }
+
+    &_temp,
+    &_hour,
+    &_description {
+        margin: 0;
+    }
+
+    &_description {}
+
+}

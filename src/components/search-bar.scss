@@ -1,0 +1,32 @@
+.search-bar {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+    &_form {
+        display: flex;
+    }
+
+    &_button,
+    &_input {
+        background: transparent;
+        border: 1px solid #fff;
+        font-size: 16px;
+    }
+
+    &_button {
+        border-left: 0px;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        background: rgb(131, 116, 145);
+    }
+
+    &_input {
+        border-left: 0px;
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+        height: 35px;
+        flex-grow: 1;
+    }
+}
